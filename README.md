@@ -6,25 +6,24 @@ This compiler is capable of handling variable declaration, assignment, logical a
 # SimpleC Syntax (Informal)
 This simplified form of C is mostly similar to conventional C with only a few exceptions.
 
-1. All variable declarations must occur at the start of the program.
-### Correct
-```
-int x;
-int y;
-x = 2;
-y = 4;
-
-print x + y;
-```
-
-### Incorrect
-```
-inx x;
-x = 2;
-int y;
-y = 4;
-
-print x + y;
-```
-
+1.	All variable declarations must occur at the start of the program.
+	### Correct
+	```
+	int x;
+	int y;
+	x = 2;
+	y = 4;
+	
+	print x + y;
+	```
+	
+	### Incorrect
+	```
+	inx x;
+	x = 2;
+	int y;
+	y = 4;
+	
+	print x + y;
+	```
 2.
