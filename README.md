@@ -6,7 +6,7 @@ This compiler is capable of handling variable declaration, assignment, logical a
 # SimpleC Syntax (Informal)
 This simplified form of C is mostly similar to conventional C with only a few exceptions.
 
-- All variable declarations must occur at the start of the program.
+1. All variable declarations must occur at the start of the program.
 ### Correct
 ```
 int x;
@@ -25,3 +25,6 @@ int y;
 y = 4;
 
 print x + y;
+```
+
+2.
