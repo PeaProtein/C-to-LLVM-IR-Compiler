@@ -13,17 +13,63 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	int y;
 	x = 2;
 	y = 4;
-	
 	print x + y;
+	```
+
+	### Incorrect
+	```
+	int x;
+	x = 2;
+	int y;
+	y = 4;
+	print x + y;
+	```
+2.	Variables must be declared and assigned on separate lines.
+	### Correct
+	```
+	int x;
+	x = 2;
+	print x;
 	```
 	
 	### Incorrect
 	```
-	inx x;
-	x = 2;
-	int y;
-	y = 4;
-	
-	print x + y;
+	int x = 2;
+	print x;
 	```
-2.
+3.	Rather than using scanf(), user input can be read using "read <variable name>;".
+	### Correct
+	```
+	int x;
+	read x;
+	print x;
+	```
+	
+	### Incorrect
+	```
+	int x;
+	scanf("%d", &x);
+	print x;
+	```
+4.	Rather than using printf(), values can be output to the console using "print <variable name>;" or "print <numerical expression>;".
+	### Correct
+	```
+	int x;
+	x = 5 + 5 * 20;
+	print x;
+	print 2;
+	print -1--1;
+	print (4 + 2) / 17 + 8;
+	print 10 % 3;
+	```
+	As can be seen above, operator precendence as well as the modulo (%) and negation (-) operators are supported in expression evaluation.
+	
+	### Incorrect
+	```
+	int x;
+	x = 5 + 5 * 20;
+	printf("%d\n", x);
+	printf("%d\n, 2);
+	printf("%d\n, 10 % 3);
+	```
+5.	
