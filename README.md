@@ -135,4 +135,4 @@ clang <filename>.ll -o groundtruth.out
 ```
 Replace `<filename>` with the filename of your SimpleC program (excluding the file extension of your file).
 
-These two commands will compile and then run the LLVM IR code that corresponds to your SimpleC code. The output of the LLVM IR code, and consequently your SimpleC code, will be written to the console
+These two commands will compile and then run the LLVM IR code that corresponds to your SimpleC code. The output of the LLVM IR code, and consequently your SimpleC code, will be written to the console.
