@@ -72,36 +72,43 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	printf("%d\n, 2);
 	printf("%d\n, 10 % 3);
 	```
-5.	Conditional statements must be enclosed between curly brackets.
+5.	Variable incrementation and decrementation must be writting using the long-hand notation.
 	### Correct
 	```
 	int x;
-	int y;
 	read x;
-	read y;
-	if (x > y) {
-		print x;
-	}
-	else {
-		while (x <= y) {
-			x = x + 1;
-		}
-		print x;
-	}
+	x = x + 1;
+	print x;
+	x = x - 1;
+	print x;
 	```
-	     
+	
 	### Incorrect
 	```
 	int x;
-	int y;
 	read x;
-	read y;
-	if (x > y)
+	x++;
+	print x;
+	x--;
+	print x;
+	```
+6.	The less-than-or-equal-to and greater-than-or-equal-to operations must be written using the long-hand notation.
+	### Correct
+	```
+	int x;
+	x = 1;
+	while (x < 100 || x == 100) {
 		print x;
-	else {
-		while (x <= y)
-			x = x + 1;
-		print x;
+		x = x + 1;
 	}
 	```
-	Notice that curly brackets were still used after the else statement to enclose both the while loop and the print statement; this is correct. However, the if statement and the while loop depend on the C programming languages to associate a single subsequent statement with a condition without the use of curly brackets. This is not supported by this C-to-LLVMIR compiler.
+
+	### Incorrect
+	```
+	int x;
+	x = 1;
+	while (x <= 100) {
+		print x;
+		x = x + 1;
+	}
+	```
