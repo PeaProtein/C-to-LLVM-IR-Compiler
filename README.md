@@ -3,7 +3,7 @@ A compiler that converts a simplified form of the C programming language into LL
 
 This compiler is capable of handling variable declaration, assignment, logical and arithmetic expression evaluation, print statements, integer input, error messaging, if-else branches, and while loops.
 
-# SimpleC Syntax (Informal)
+# SimpleC Syntax (Informally)
 This simplified form of C is mostly similar to conventional C with only a few exceptions.
 
 1.	All variable declarations must occur at the start of the program.
@@ -112,3 +112,4 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 		x = x + 1;
 	}
 	```
+7.	Function definition, arrays, and memory management are not supported.
