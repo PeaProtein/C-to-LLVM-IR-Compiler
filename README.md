@@ -62,7 +62,7 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	print (4 + 2) / 17 + 8;
 	print 10 % 3;
 	```
-	As can be seen above, operator precendence as well as the modulo (%) and negation (-) operators are supported in expression evaluation.
+	As can be seen above, operator precendence, as well as the modulo (%) and negation (-) operators, are supported in expression evaluation.
 	
 	### Incorrect
 	```
@@ -72,4 +72,22 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	printf("%d\n, 2);
 	printf("%d\n, 10 % 3);
 	```
-5.	
+5.	Conditional statements must be enclosed between curly brackets.
+	### Correct
+	```
+	int x;
+	int y;
+	read x;
+	read y;
+	if (x > y) {
+		print x;
+	}
+	else {
+		while (x <= y) {
+			x = x + 1;
+		}
+		print x;
+	}
+	```
+	     
+	### Incorrect
