@@ -436,6 +436,7 @@ void statement()
         getToken();
         printf("br i1 %s, label %%label%d, label %%label%d\nlabel%d:\n\t", expression(exPrimeRes),
             ifLabel, elseOrEndLabel, ifLabel);
+
         getToken();
         getToken();
         statement();
