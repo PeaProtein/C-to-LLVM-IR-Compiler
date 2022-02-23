@@ -15,7 +15,6 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	y = 4;
 	print x + y;
 	```
-
 	### Incorrect
 	```
 	int x;
@@ -31,7 +30,6 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	x = 2;
 	print x;
 	```
-	
 	### Incorrect
 	```
 	int x = 2;
@@ -44,7 +42,6 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	read x;
 	print x;
 	```
-	
 	### Incorrect
 	```
 	int x;
@@ -63,7 +60,6 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	print 10 % 3;
 	```
 	As can be seen above, operator precendence, as well as the modulo (%) and negation (-) operators, are supported in expression evaluation.
-	
 	### Incorrect
 	```
 	int x;
@@ -82,7 +78,6 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	x = x - 1;
 	print x;
 	```
-	
 	### Incorrect
 	```
 	int x;
@@ -102,7 +97,6 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 		x = x + 1;
 	}
 	```
-
 	### Incorrect
 	```
 	int x;
