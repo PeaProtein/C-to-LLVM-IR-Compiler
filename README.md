@@ -120,7 +120,7 @@ sudo apt install clang
 ```
 ### Write a SimpleC program
 Create whatever program you like as long as it adheres to the syntax explained above. Save your program with the extension .simplec, e.g., "filename.simplec".
-### Compile and Run C2LLVM.c on Your 
+### Compile and Run C2LLVM.c
 ```
 gcc C2LLVM.c <filename>.simplec -o <filename>.exe
 ./<filename>.exe > <filename>.ll
