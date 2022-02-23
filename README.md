@@ -108,3 +108,14 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	```
 7.	Memory management, functions, arrays, and use of libraries are not supported.
 # Usage
+### Install GCC (if it's not already installed)
+```
+sudo apt update
+sudo apt install build-essential
+```
+### Install Clang (if it's not already installed)
+```
+sudo apt update
+sudo apt install clang
+```
+	
