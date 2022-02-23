@@ -91,3 +91,17 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	```
 	     
 	### Incorrect
+	```
+	int x;
+	int y;
+	read x;
+	read y;
+	if (x > y)
+		print x;
+	else {
+		while (x <= y)
+			x = x + 1;
+		print x;
+	}
+	```
+	Notice that curly brackets were still used after the else statement to enclose both the while loop and the print statement; this is correct. However, the if statement and the while loop depend on the C programming languages to associate a single subsequent statement with a condition without the use of curly brackets. This is not supported by this C-to-LLVMIR compiler.
