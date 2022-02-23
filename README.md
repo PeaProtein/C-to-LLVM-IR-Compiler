@@ -6,7 +6,7 @@ This compiler is capable of handling variable declaration, assignment, logical a
 # SimpleC Syntax (Informally)
 This simplified form of C is mostly similar to conventional C with only a few exceptions.
 
-#1.	All variable declarations must occur at the start of the program.
+## 1.	All variable declarations must occur at the start of the program.
 	### Correct
 	```
 	int x;
@@ -24,7 +24,7 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	y = 4;
 	print x + y;
 	```
-2.	Variables must be declared and assigned on separate lines.
+## 2.	Variables must be declared and assigned on separate lines.
 	### Correct
 	```
 	int x;
@@ -37,7 +37,7 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	int x = 2;
 	print x;
 	```
-3.	Rather than using scanf(), user input can be read using "read <variable name>;".
+## 3.	Rather than using scanf(), user input can be read using "read <variable name>;".
 	### Correct
 	```
 	int x;
@@ -51,7 +51,7 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	scanf("%d", &x);
 	print x;
 	```
-4.	Rather than using printf(), values can be output to the console using "print <variable name>;" or "print <numerical expression>;".
+## 4.	Rather than using printf(), values can be output to the console using "print <variable name>;" or "print <numerical expression>;".
 	### Correct
 	```
 	int x;
@@ -72,7 +72,7 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	printf("%d\n, 2);
 	printf("%d\n, 10 % 3);
 	```
-5.	Variable incrementation and decrementation must be writting using the long-hand notation.
+## 5.	Variable incrementation and decrementation must be writting using the long-hand notation.
 	### Correct
 	```
 	int x;
@@ -92,7 +92,7 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 	x--;
 	print x;
 	```
-6.	The less-than-or-equal-to and greater-than-or-equal-to operations must be written using the long-hand notation.
+## 6.	The less-than-or-equal-to and greater-than-or-equal-to operations must be written using the long-hand notation.
 	### Correct
 	```
 	int x;
@@ -112,4 +112,4 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 		x = x + 1;
 	}
 	```
-7.	Function definition, arrays, and memory management are not supported.
+## 7.	Function definition, arrays, and memory management are not supported.
