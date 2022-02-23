@@ -112,4 +112,4 @@ This simplified form of C is mostly similar to conventional C with only a few ex
 		x = x + 1;
 	}
 	```
-7.	Function definition, arrays, and memory management are not supported.
+7.	Memory management, functions, arrays, and use of libraries are not supported.
